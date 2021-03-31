@@ -15,7 +15,7 @@ export const Form = () => {
         <form className="form" onSubmit={hadleSubmit}>
             <InputText name="name" label="Ingrese su nombre" parseInput={parseInput} type="text"/>
             <InputText name="lastname" label="Ingrese su apelllido" parseInput={parseInput} type="text"/>
-            <InputText name="phone" label="Ingrese su telefono" parseInput={parseInput} type="number"/>
+            {/* <InputText name="phone" label="Ingrese su telefono" parseInput={parseInput} type="number"/> */}
             <InputText name="email" label="Ingrese su email" parseInput={parseInput} type="email"/>
             <InputText name="password" label="Ingrese su contraseña" parseInput={parseInput} type="password"/>
             {/* <InputPassword name="password" label="Ingrese su contraseña" message='Contraseña debe tener Mayuculas, minuscular y numeros' parseInput={parseInput} /> */}

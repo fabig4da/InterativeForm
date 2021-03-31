@@ -60,9 +60,10 @@
     }
     .label-up{
         label{
-            top: -12px;
+            top: calc(-0.8rem / 2);
             background-color: #fff;
             padding: 0 3px;
+            font-size: .8rem;
         }
     }
     .input-ok{
